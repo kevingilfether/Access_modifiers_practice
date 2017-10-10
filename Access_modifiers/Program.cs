@@ -17,7 +17,11 @@ namespace Access_modifiers
             //internal -- can only be accessed from that assembly (project)
 
             Boat boaty = new Boat(3, "Boaty", 18.6);
+            boaty.Move();
 
+            boaty.numberOfPassengers = 4;
+
+            boaty.BoatInfo();
         }
     }
 }
