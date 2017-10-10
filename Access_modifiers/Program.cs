@@ -16,7 +16,7 @@ namespace Access_modifiers
             //protected -- can only be accessed from inside that class and descenedent classes
             //internal -- can only be accessed from that assembly (project)
 
-
+            Boat boaty = new Boat(3, "Boaty", 18.6);
 
         }
     }
